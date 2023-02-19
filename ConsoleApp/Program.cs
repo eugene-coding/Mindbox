@@ -67,8 +67,13 @@ internal class Program
                         Console.WriteLine("Кстати, вы ввели прямоугольный треугольник!");
                     }
                 }
-                
+                catch
+                {
+                    Console.WriteLine("К сожалению, не смогли определить, прямоугольный ли треугольник" +
+                        "из-за непредвиденной ошибки. :с");
+                }
             }
+
             catch (Exception ex) when (ex is ArgumentOutOfRangeException or InvalidTriangleException)
             {
                 Console.WriteLine("Вы ввели неправильные стороны! Такого треугольника не может быть!");
