@@ -1,8 +1,5 @@
 ﻿using Geometry.Exceptions;
 
-using System.Threading;
-using System.Xml.Linq;
-
 namespace Geometry;
 
 /// <summary>

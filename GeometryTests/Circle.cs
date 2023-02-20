@@ -1,5 +1,3 @@
-using Geometry;
-
 namespace GeometryTests;
 
 [TestClass]
