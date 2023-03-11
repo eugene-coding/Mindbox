@@ -7,7 +7,7 @@ namespace Geometry;
 /// </summary>
 public class Triangle : Shape
 {
-    private const string InvalidSideMessage = "The radius cannot be less than or equal to zero";
+    private const string InvalidSideMessage = "The side cannot be less than zero";
 
     /// <summary>
     /// Creates the <see cref="Triangle"/> instance.
